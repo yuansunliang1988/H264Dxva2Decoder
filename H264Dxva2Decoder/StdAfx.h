@@ -25,9 +25,9 @@
 // Microsoft DirectX SDK (June 2010)
 #ifdef USE_DIRECTX9
 #ifdef _WIN64
-#pragma comment(lib, "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Lib\\x64\\d3dx9")
+#pragma comment(lib, "d:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Lib\\x64\\d3dx9")
 #else
-#pragma comment(lib, "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Lib\\x86\\d3dx9")
+#pragma comment(lib, "D:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Lib\\x86\\d3dx9")
 #endif
 #endif
 
@@ -60,7 +60,7 @@
 //----------------------------------------------------------------------------------------------
 // Microsoft DirectX SDK (June 2010)
 #ifdef USE_DIRECTX9
-#include "C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9.h"
+#include "d:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\d3dx9.h"
 #endif
 
 //----------------------------------------------------------------------------------------------
